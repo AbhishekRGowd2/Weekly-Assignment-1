@@ -103,18 +103,6 @@ This prevents unnecessary repeated executions.
 */
 
 /*
-How It Works
-
-Debouncing delays function execution until the user stops triggering the event for a specified time.
-
-Every time the function is called:
-
-Previous timer is cleared
-New timer starts
-Function executes only after delay completes
-
-This prevents unnecessary repeated executions.
-
 Why Closure Is Used
 
 The inner function remembers the timer variable even after the outer function execution finishes.
